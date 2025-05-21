@@ -13,7 +13,9 @@ let firstName="Carlos"
 let lastName="Stevenson"
 let birth="1947"
 let curr="1965"
-let greeting="Hello! My name is "+firstName+" "+lastName+" and I am "+(curr-birth)+" years old."
+let fullName=firstName+lastName;
+let age=curr-birth
+let greeting="Hello! My name is "+fullName+" and I am "+age+" years old."
 console.log(greeting)
 
 
