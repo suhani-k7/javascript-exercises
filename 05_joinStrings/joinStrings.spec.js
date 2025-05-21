@@ -1,4 +1,4 @@
-const values = require('./joinStrings')
+const values = require('./joinStrings');
 
 describe('step 2', () => {
   test('firstName is Carlos', () => {

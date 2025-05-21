@@ -9,7 +9,12 @@
 
 // Add your code right below, good luck!
 
-
+let firstName="Carlos"
+let lastName="Stevenson"
+let birth="1947"
+let curr="1965"
+let greeting="Hello! My name is "+firstName+" "+lastName+" and I am "+(curr-birth)+" years old."
+console.log(greeting)
 
 
 
